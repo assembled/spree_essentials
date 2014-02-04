@@ -1,6 +1,6 @@
 class Spree::Upload < ::Spree::Asset
   
-  attr_accessible :attachment, :alt
+  # attr_accessible :attachment, :alt
   
   default_scope where(:type => "Upload") if table_exists?
   
